@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Survey form</title>
+</head>
+<body>
+   <header>
+      <h1 id="title">American Food Survey </h1>
+      <p id="description">Welcome to our American Food Survey</p>
+   </header>
+   <div> class="form-area"
+      <form id="survey-form">
+         <label class="label-text" id="name">Name</label>
+         <input class="input-field" type="text" id="name" placeholder="Enter your name" required>
+         <label class="label-text" id="email">email</label>
+         <input class="input-field" type="email" id="email" required placeholder="Enter a valid email address">
+         <label class="label-text" id="number">Age</label>
+         <input class="input-field" type="number"  id="number" placeholder="Enter your age" min="18" max="70" required >
+
+         <label for="label-text" for="dropdown"> Select your favorite American food</label>
+         <select class="input-field" id="dropdown" name="American Food">
+            <option value="Cheese Burger">Cheese Burger</option>
+            <option value="Tater tots">Tater Tots</option>
+            <option value="Corn Bread">Corn Bread</option>
+            <option value="Chicken Fried Steak">Chicken Fried Steak</option>
+       </select>
+       <label class="label text" for gender> Select your gender</label>
+       <div class ="options-section">
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label>
+       </div>
+      </form>
+   </div>
+</body>
+</html>
+
+
+
+
