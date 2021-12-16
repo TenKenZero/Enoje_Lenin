@@ -1,0 +1,40 @@
+*{
+   font-family: "Roboto", sans-serif;
+   
+}
+body {
+   background-color:cornflowerblue;
+}
+header{
+   text-align: center;
+}
+.form-area{
+   background-color: burlywood;
+}
+#survey-form{
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+   margin-bottom: 40px;
+}
+.label-text{
+   padding: 10px 5px;
+   color: honeydew;
+   font-weight: bold;
+   font-size: 1.2em;
+}
+#comments{
+   margin-bottom: 40px;
+
+}
+options-section{
+   display: inline-block;
+}
+
+.input_field{
+   background-color: cornsilk;
+   padding: 10px 5px;
+   border:  2px green;
+   border-radius: 15px;
+   font-size: 1.1em;
+}

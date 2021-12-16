@@ -4,6 +4,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
    <title>Survey form</title>
 </head>
 <body>
@@ -11,7 +12,7 @@
       <h1 id="title">American Food Survey </h1>
       <p id="description">Welcome to our American Food Survey</p>
    </header>
-   <div> class="form-area"
+   <div class="form-area">
       <form id="survey-form">
          <label class="label-text" id="name">Name</label>
          <input class="input-field" type="text" id="name" placeholder="Enter your name" required>
@@ -43,6 +44,21 @@
           <label for="yellow">Yellow</label>
 
        </div>
+       <fieldset>      
+         <legend>What is Your Favorite Fruit?</legend>      
+         <input type="checkbox" name="favorite_fruit" value="Kiwi">Kiwi<br>      
+         <input type="checkbox" name="favorite_fruit" value="Grapes">Grapes<br>      
+         <input type="checkbox" name="favorite_fruit" value="Apple">Apple<br>      
+         <input type="checkbox" name="favorite_fruit" value="PineApple">PineApple<br>      
+         <input type="checkbox" name="favorite_fruit" value="Mango">Mango<br>
+       </fieldset>
+
+       <textarea id="comment" name="comment" rows="20" cols="50">
+            Enter your comments...
+            </textarea>
+      
+            <input type="submit" id="submit" value="submit"></form>
+            </form>
       </form>
    </div>
 </body>
